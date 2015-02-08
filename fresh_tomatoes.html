@@ -11,6 +11,10 @@
     <style type="text/css" media="screen">
         body {
             padding-top: 60px;
+            background-color: grey;
+        }
+        .navbar-brand {
+            text-color: red;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -30,6 +34,7 @@
         .movie-tile {
             margin-bottom: 10px;
             padding-top: 10px;
+            border-radius: 25%;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -47,7 +52,7 @@
             width: 100%;
             left: 0;
             top: 0;
-            background-color: black;
+            background-color: red;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -71,7 +76,7 @@
         // Animate in the movies when the page loads
         $(document).ready(function () {
           $('.movie-tile').hide().first().show("slow", function showNext() {
-            $(this).next("div").show("slow", showNext);
+            $(this).next("div").show("fast", showNext);
           });
         });
     </script>
@@ -98,7 +103,7 @@
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Freshly Rotten Tomatoes Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -107,32 +112,32 @@
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="XNzduf6vWcA" data-toggle="modal" data-target="#trailer">
     <img src="http://upload.wikimedia.org/wikipedia/en/f/f8/Zombie-ass-poster.jpg" width="200" height="322">
-    <h3>Zombie Ass: Toilet of the Dead</h3>
+    <h4>Zombie Ass: Toilet of the Dead</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="zgrKLjoWcbs" data-toggle="modal" data-target="#trailer">
     <img src="http://upload.wikimedia.org/wikipedia/en/9/96/Robo_geisha.jpg" width="200" height="322">
-    <h3>RoboGeisha</h3>
+    <h4>RoboGeisha</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="_SKWQm2sGsg" data-toggle="modal" data-target="#trailer">
     <img src="http://upload.wikimedia.org/wikipedia/en/3/39/Mutant-girls-squad-poster.jpg" width="200" height="322">
-    <h3>Mutant Girl Squad</h3>
+    <h4>Mutant Girl Squad</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="MV4cgs-bPic" data-toggle="modal" data-target="#trailer">
     <img src="http://upload.wikimedia.org/wikipedia/en/0/03/TheWarriors_1979_Movie_Poster.jpg" width="200" height="322">
-    <h3>The Warriors</h3>
+    <h4>The Warriors</h4>
 </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="-GlwowBL_bY" data-toggle="modal" data-target="#trailer">
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Cf-SXMZTg8I" data-toggle="modal" data-target="#trailer">
     <img src="http://upload.wikimedia.org/wikipedia/en/0/03/Soul_Plane_poster.jpg" width="200" height="322">
-    <h3>Soul Plane</h3>
+    <h4>Soul Plane</h4>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="kSDNIYw1nLI" data-toggle="modal" data-target="#trailer">
     <img src="http://upload.wikimedia.org/wikipedia/en/a/a9/FeardotCom_poster.jpg" width="200" height="322">
-    <h3>Fear dot com</h3>
+    <h4>Fear dot com</h4>
 </div>
 
     </div>
