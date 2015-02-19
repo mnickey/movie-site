@@ -2,11 +2,13 @@
 This is a demonstration of how one can use python with classes, html and css to create a nice little movie page.
 There are three main files in this project. 
 EXECUTION:
+
 1. Clone this repository
 2. Change to the directory where you cloned this repository.
 3. Open the `fresh-tomatoes.html` file
 
 FILES:
+
 1. Ent_center
 Because we created the class structure in media, this page is very nicely layed out by creating an instance of movie for each title. Each movie instance is added to the movies list which is then passed into 'fresh_tomatoes.py' as a parameter. 
 
