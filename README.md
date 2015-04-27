@@ -1,6 +1,7 @@
 # movie-site
 This is a demonstration of how one can use python with classes, html and css to create a nice little movie page.
 There are three main files in this project.  Note that these files need to remain in the same tree structure. 
+
 EXECUTION:
 
 1. Clone this repository
