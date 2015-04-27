@@ -1,11 +1,11 @@
 # movie-site
 This is a demonstration of how one can use python with classes, html and css to create a nice little movie page.
-There are three main files in this project. 
+There are three main files in this project.  Note that these files need to remain in the same tree structure. 
 EXECUTION:
 
 1. Clone this repository
 2. Change to the directory where you cloned this repository.
-3. Open the `fresh-tomatoes.html` file
+3. Open the `fresh-tomatoes.html` file in your browser.
 
 FILES:
 
