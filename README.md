@@ -10,13 +10,13 @@ EXECUTION:
 
 FILES:
 
-1. Ent_center
+1. `Ent_center`
 Because we created the class structure in media, this page is very nicely layed out by creating an instance of movie for each title. Each movie instance is added to the movies list which is then passed into 'fresh_tomatoes.py' as a parameter. 
 
-2. Fresh_tomatoes.py
+2. `Fresh_tomatoes.py`
 Fresh_tomatoes is the main outline of the site. 
 This contains all the JQuery, HTML and CSS that makes this page work.
 
-3. media.py
+3. `media.py`
 Media.py shows the basic class creation. Here we include a movie title, movie storyline, poster image and youtube trailer.
  We also add a method called show_trailer that calls the package webbrowser and shows the trailer in a modal.
