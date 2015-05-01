@@ -6,7 +6,7 @@ EXECUTION:
 
 1. Clone this repository
 2. Change to the directory where you cloned this repository.
-3. Open the `fresh-tomatoes.html` file in your browser.
+3. In the Terminal window type in 'python ent_center.py'. This will automatically open the `fresh-tomatoes.html` file in your browser.
 
 FILES:
 
