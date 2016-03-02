@@ -46,12 +46,12 @@ splane = media.Movie("Soul Plane",
 movies.append(splane)
 
 # Create movie objects and fill in class details
-feardotcom = media.Movie("Animal House",
+animalhouse = media.Movie("Animal House",
         "The trouble is, the college dean has it in for the Deltas. He has put them on 'Double Secret Probation' and secretly assigned Omega's president the task of having their charter revoked.",
         "https://upload.wikimedia.org/wikipedia/en/e/ea/Animalhouseposter.jpg",
-        "https://youtu.be/HxoBJmyAS04")
+        "https://www.youtube.com/watch?v=HxoBJmyAS04")
 # Append movie to list named 'movies'
-movies.append(feardotcom)
+movies.append(animalhouse)
 
 # use the fresh_tomatoes class to open the html page passing in the movies list as parameters
 fresh_tomatoes.open_movies_page(movies)
