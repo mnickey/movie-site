@@ -14,20 +14,20 @@ hackers = media.Movie("Zombie Ass: Toilet of the Dead",
 movies.append(hackers)
 
 # Create movie objects and fill in class details
-robo_geisha = media.Movie("RoboGeisha",
-        "Android geishas battle each other and assassinate targets.",
-        "http://upload.wikimedia.org/wikipedia/en/9/96/Robo_geisha.jpg",
-        "https://www.youtube.com/watch?v=zgrKLjoWcbs")
+pans_labyrinth = media.Movie("Pans Labyrinth",
+        "Ofelia meets several strange and magical creatures who become central to her story, leading her through the trials of the old labyrinth garden. The",
+        "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg",
+        "https://www.youtube.com/watch?v=EqYiSlkvRuw")
 # Append movie to list named 'movies'
-movies.append(robo_geisha)
+movies.append(pans_labyrinth)
 
 # Create movie objects and fill in class details
-mutantgs = media.Movie("Mutant Girl Squad",
-		"Three super-powered young women battle enemies.",
-		"http://upload.wikimedia.org/wikipedia/en/3/39/Mutant-girls-squad-poster.jpg",
-		"https://www.youtube.com/watch?v=_SKWQm2sGsg")
+ant_man = media.Movie("Ant-Man",
+		"The miniature hero must use his new skills to prevent Cross, also known as Yellowjacket, from perfecting the same technology and using it as a weapon for evil.",
+		"https://upload.wikimedia.org/wikipedia/en/7/75/Ant-Man_poster.jpg",
+		"https://www.youtube.com/watch?v=pWdKf3MneyI")
 # Append movie to list named 'movies'
-movies.append(mutantgs)
+movies.append(ant_man)
 
 # Create movie objects and fill in class details
 warriors = media.Movie("The Warriors",
@@ -46,10 +46,10 @@ splane = media.Movie("Soul Plane",
 movies.append(splane)
 
 # Create movie objects and fill in class details
-feardotcom = media.Movie("Fear dot com",
-        "To catch a killer he must become the victim.",
-        "http://upload.wikimedia.org/wikipedia/en/a/a9/FeardotCom_poster.jpg",
-        "https://www.youtube.com/watch?v=kSDNIYw1nLI")
+feardotcom = media.Movie("Animal House",
+        "The trouble is, the college dean has it in for the Deltas. He has put them on 'Double Secret Probation' and secretly assigned Omega's president the task of having their charter revoked.",
+        "https://upload.wikimedia.org/wikipedia/en/e/ea/Animalhouseposter.jpg",
+        "https://youtu.be/HxoBJmyAS04")
 # Append movie to list named 'movies'
 movies.append(feardotcom)
 
