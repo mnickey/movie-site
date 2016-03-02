@@ -6,12 +6,13 @@ import fresh_tomatoes
 # Create an empty list to append each movie after creation.
 movies = []
 # Create movie objects and fill in class details
-zombie_ass = media.Movie("Zombie Ass: Toilet of the Dead",
-        "Megumi and her friends go on a trip to the woods and they are attacked by a crowd undead covered in sewage.",
-        "http://upload.wikimedia.org/wikipedia/en/f/f8/Zombie-ass-poster.jpg",
-        "https://www.youtube.com/watch?v=XNzduf6vWcA")
+hackers = media.Movie("Zombie Ass: Toilet of the Dead",
+        "A young boy is arrested by the US Secret Service for writing a computer virus and is banned from using a computer until his 18th birthday. Years later, he and his new-found friends discover a plot to unleash a dangerous computer virus, but they must use their computer skills to find the evidence while being pursued by the Secret Service and the evil computer genius behind the virus.",
+        "https://upload.wikimedia.org/wikipedia/en/6/67/Hackersposter.jpg",
+        "https://www.youtube.com/watch?v=Ql1uLyuWra8")
 # Append movie to list named 'movies'
-movies.append(zombie_ass)
+movies.append(hackers)
+
 # Create movie objects and fill in class details
 robo_geisha = media.Movie("RoboGeisha",
         "Android geishas battle each other and assassinate targets.",
@@ -19,6 +20,7 @@ robo_geisha = media.Movie("RoboGeisha",
         "https://www.youtube.com/watch?v=zgrKLjoWcbs")
 # Append movie to list named 'movies'
 movies.append(robo_geisha)
+
 # Create movie objects and fill in class details
 mutantgs = media.Movie("Mutant Girl Squad",
 		"Three super-powered young women battle enemies.",
@@ -26,6 +28,7 @@ mutantgs = media.Movie("Mutant Girl Squad",
 		"https://www.youtube.com/watch?v=_SKWQm2sGsg")
 # Append movie to list named 'movies'
 movies.append(mutantgs)
+
 # Create movie objects and fill in class details
 warriors = media.Movie("The Warriors",
 		"These are the armies of the night.",
@@ -33,6 +36,7 @@ warriors = media.Movie("The Warriors",
 		"https://www.youtube.com/watch?v=MV4cgs-bPic")
 # Append movie to list named 'movies'
 movies.append(warriors)
+
 # Create movie objects and fill in class details
 splane = media.Movie("Soul Plane",
         "Determined to create a better flying experience, Nashawn starts his own airline.",
@@ -40,6 +44,7 @@ splane = media.Movie("Soul Plane",
         "https://www.youtube.com/watch?v=Cf-SXMZTg8I")
 # Append movie to list named 'movies'
 movies.append(splane)
+
 # Create movie objects and fill in class details
 feardotcom = media.Movie("Fear dot com",
         "To catch a killer he must become the victim.",
@@ -47,5 +52,6 @@ feardotcom = media.Movie("Fear dot com",
         "https://www.youtube.com/watch?v=kSDNIYw1nLI")
 # Append movie to list named 'movies'
 movies.append(feardotcom)
+
 # use the fresh_tomatoes class to open the html page passing in the movies list as parameters
 fresh_tomatoes.open_movies_page(movies)
